@@ -1,0 +1,31 @@
+export interface WmsShipment {
+  asnId: string;
+  cusNo: string;
+  bolNo: string;
+  shipToId: string;
+  purchOrderFormNum: string;
+  shipDate: string;
+  shiptoName: string;
+  shipToAdd1: string;
+  shipToAdd2: string;
+  shipToCity: string;
+  shipToState: string;
+  shipToZip: string;
+  shipToCountry: string;
+  createdDate: string;
+  carrierId: string;
+  carrierServiceCode: string;
+  orderNo: string;
+  ediYourReference: string;
+  ediExternalDocumentNo: string;
+  yourReference: string;
+  shipFrName: string;
+  shipFrAdd1: string;
+  shipFrAdd2: string;
+  shipFrCity: string;
+  shipFrState: string;
+  shipFrZip: string;
+  shipFrCountry: string;
+  totalQuantity: number;
+  chainNameCusNo: string;
+}
